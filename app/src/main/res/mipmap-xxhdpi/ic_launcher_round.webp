@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json.schemastore.org/schema-catalog.json",
+  "version": 1.0,
+  "schemas": [
+    {
+      "name": ".adonisrc.json",
+      "description": "AdonisJS configuration file",
+      "fileMatch": [
+        ".adonisrc.json"
+      ],
+      "url": "https://raw.githubusercontent.com/adonisjs/application/master/adonisrc.schema.json"
+    },
+    {
+      "name": ".agripparc.json",
+      "description": "JSON schema for the Agrippa config file",
+      "fileMatch": [
+        "agripparc.json"
+      ],
+      "url": "https://json.schemastore.org/agripparc-1.2.json"
+    },
+    {
+      "name": ".aiproj.json",
+      "description": "Settings for project analysis by the application inspector",
+      "fileMatch": [
+        ".aiproj.json"
+      ],
+      "url": "https://json.schemastore.org/aiproj.json"
+    },
+    {
+      "name": "Airlock Microgateway",
+      "description": "Airlock Microgateway configuration schema",
+      "url": "https://json.schemastore.org/airlock-microgateway-3.0.json",
+      "fileMatch": [
+        "microgateway-config.yaml",
+        "microgateway-config.yml",
+        "airlock-microgateway-config.yaml",
+        "airlock-microgateway-config.yml"
+      ],
+      "versions": {
+        "3.0": "https://json.schemastore.org/airlock-microgateway-3.0.json"
+      }
+    },
+    {
+      "name": "angular.json",
+      "description": "Angular configuration file",
+      "fileMatch": [
+        "angular.json"
+      ],
+      "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/angular/cli/lib/config/workspace-schema.json"
+    },
+    {
+      "name": ".angular-cli.json",
+      "description": "Angular CLI configuration file",
+      "fileMatch": [
+        ".angular-cli.json",
+        "angular-cli.json"
+      ],
+      "url": "https://raw.githubusercontent.com/angular/angular-cli/v10.1.6/packages/angular/cli/lib/config/schema.json"
+    },
+    {
+      "name": "Ansible Role",
+      "description": "Ansible role task files",
+      "url": "https://json.schemastore.org/ansible-role-2.9.json",
+      "fileMatch": [
+        "**/roles/**/tasks/*.yml",
+        "**/roles/**/tasks/*.yaml"
+      ],
+      "versions": {
+        "2.0": "https://json.schemastore.org/ansible-role-2.0.json",
+        "2.1": "https://json.schemastore.org/ansible-role-2.1.json",
+        "2.2": "https://json.schemastore.org/ansible-role-2.2.json",
+        "2.3": "https://json.schemastore.org/ansible-role-2.3.json",
+        "2.4": "https://json.schemastore.org/ansible-role-2.4.json",
+        "2.5": "https://json.schemastore.org/ansible-role-2.5.json",
+        "2.6": "https://json.schemastore.org/ansible-role-2.6.json",
+        "2.7": "https://json.schemastore.org/ansible-role-2.7.json",
+        "2.9": "https://json.schemastore.org/ansible-role-2.9.json"
+      }
+    },
+    {
+      "name": "Ansible Playbook",
+      "description": "Ansible playbook files",
+      "url": "https://json.schemastore.org/ansible-playbook.json",
+      "fileMatch": [
+        "playbook.yml",
+        "playbook.yaml"
+      ]
+    },
+    {
+      "name": "Ansible Inventory",
+      "description": "Ansible inventory files",
+      "url": "https://json.schemastore.org/ansible-inventory.json",
+      "fileMatch": [
+        "inventory.yml",
+        "inventory.yaml"
+      ]
+    },
+    {
+      "name": "Ansible Collection Galaxy",
+      "description": "Ansible Collection Galaxy metadata",
+      "url": "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-galaxy.json",
+      "fileMatch": [
+        "galaxy.yml"
+      ]
+    },
+    {
+      "name": "apple-app-site-association",
+      "description": "Apple Universal Link, App Site Association",
+      "fileMatch": [
+        "apple-app-site-association"
+      ],
+      "url": "https://json.schemastore.org/apple-app-site-association.json"
+    },
+    {
+      "name": "app-definition.yaml",
+      "description": "Appsemble app definition",
+      "fileMatch": [
+        "app-definition.yaml"
+      ],
+      "url": "https://appsemble.app/api.json#/components/schemas/AppDefinition"
+    },
+    {
+      "name": ".appsemblerc.yaml",
+      "description": "Appsemble RC file",
+      "fileMatch": [
+        ".appsemblerc.yaml"
+      ],
+      "url": "https://json.schemastore.org/appsemblerc.json"
+    },
+    {
+      "name": "appsscript.json",
+      "description": "Google Apps Script manifest file",
+      "fileMatch": [
+        "appsscript.json"
+      ],
+      "url": "https://json.schemastore.org/appsscript.json"
+    },
+    {
+      "name": "appsettings.json",
+      "description": "ASP.NET Core's configuration file",
+      "fileMatch": [
+        "appsettings.json",
+        "appsettings.*.json"
+      ],
+      "url": "https://json.schemastore.org/appsettings.json"
+    },
+    {
+      "name": "appveyor.yml",
+      "description": "AppVeyor CI configuration file",
+      "fileMatch": [
+        "appveyor.yml"
+      ],
+      "url": "https://json.schemastore.org/appveyor.json"
+    },
+    {
+      "name": "architect.yml",
+      "description": "Architect.io Component Schema",
+      "fileMatch": ["architect.yml", "architect.yaml", "*.architect.yml", "*.architect.yaml"],
+      "url": "https://raw.githubusercontent.com/architect-team/architect-cli/master/src/dependency-manager/schema/architect.schema.json"
+    },
+    {
+      "name": "arc.json",
+      "description": "A JSON schema for OpenJS Architect",
+      "fileMatch": [
+        "arc.json",
+        "arc.yml",
+        "arc.yaml"
+      ],
+      "url": "https://raw.githubusercontent.com/architect/parser/v2.3.0/arc-schema.json"
+    },
+    {
+      "name": "Argo Workflows",
+      "description": "Argo Workflow configuration file",
+      "url": "https://raw.githubusercontent.com/argoproj/argo-workflows/master/api/jsonschema/schema.json"
